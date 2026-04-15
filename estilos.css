@@ -36,3 +36,60 @@ body{
 .enlaces-navegacion a{
     color: white;
 }
+
+/* ESTILS CAIXA 1 */
+.card{
+    width: 100%;
+    color:#744861;
+    padding: 1%;
+    background: rgba(235, 231, 231, 0.8);
+    border: 10px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgb(197, 142, 173)
+}
+
+.card-body{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text-petit{
+    font-size: 0.9rem;
+    max-width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* ESTILS CAIXA 2 */
+.card2{
+    width: 100%;
+    color:#ebe7e7cc;
+    padding: 1%;
+    margin: 20px auto;
+    background: rgba(116, 72, 97, 0.8);
+    border: 10px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px #c58ead
+}
+
+.card-body2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1%;        
+}
+
+.text-petit2{
+    font-size: 0.9rem;
+    max-width: 60%;
+    margin: 10px auto 0 auto;
+    opacity: 0.9;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.text-petit2 li{
+    margin-bottom: 8px;
+}
