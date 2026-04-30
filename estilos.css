@@ -93,3 +93,25 @@ body{
 .text-petit2 li{
     margin-bottom: 8px;
 }
+
+@media (max-width: 768px){
+    .barra-navegacion{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .enlaces-navegacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .enlaces-navegacion a{
+        /* display: block;
+        width: 100%; */
+        color: #744861;
+    }
+}
