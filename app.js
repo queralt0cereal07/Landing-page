@@ -9,5 +9,4 @@ modeBtn.addEventListener('click', () => {
     } else {
         modeBtn.textContent = 'Dark mode';
     }
-
 });
